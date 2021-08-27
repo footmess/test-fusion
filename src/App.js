@@ -1,23 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import { Button, Badge, Dialog, Input } from '@alifd/meet-react';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Badge count="56">待签收</Badge> */}
+      <Dialog />
     </div>
   );
 }
